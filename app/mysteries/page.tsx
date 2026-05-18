@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "The Mysteries",
   description:
     "Meditate on the Joyful, Sorrowful, Glorious, and Luminous mysteries of the Holy Rosary, with scripture and reflection.",
+  alternates: { canonical: "/mysteries" },
+  openGraph: {
+    title: "The Mysteries of the Holy Rosary",
+    description:
+      "Meditate on the Joyful, Sorrowful, Glorious, and Luminous mysteries of the Holy Rosary, with scripture and reflection.",
+    url: "/mysteries",
+    type: "website",
+  },
 };
 
 export default function MysteriesPage() {

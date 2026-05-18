@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Pray Along",
   description:
     "Guided rosary videos from Ascension Presents (Fr. Mike Schmitz), Catholic Minute (Ken Yasinski), and My Mother Mary — all four mysteries from each channel.",
+  alternates: { canonical: "/pray-along" },
+  openGraph: {
+    title: "Pray the Rosary along with a guide",
+    description:
+      "Guided rosary videos from Ascension Presents (Fr. Mike Schmitz), Catholic Minute (Ken Yasinski), and My Mother Mary — all four mysteries from each channel.",
+    url: "/pray-along",
+    type: "website",
+  },
 };
 
 export default function PrayAlongPage() {

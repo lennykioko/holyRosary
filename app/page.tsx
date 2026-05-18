@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { VideoCard } from "@/components/VideoCard";
@@ -8,6 +9,10 @@ import {
   MYSTERY_SETS,
   mysteryForToday,
 } from "@/lib/rosary";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const today = MYSTERY_SETS[mysteryForToday()];

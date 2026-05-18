@@ -41,7 +41,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Holy Rosary Devotion" }],
   category: "religion",
   formatDetection: { email: false, address: false, telephone: false },
-  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: siteUrl,
@@ -58,6 +57,14 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

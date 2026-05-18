@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "The Rosary in Song",
   description:
     "The Rosary sung by Donna — a quiet, distraction-free way to pray along.",
+  alternates: { canonical: "/audio" },
+  openGraph: {
+    title: "The Rosary in Song",
+    description:
+      "The Rosary sung by Donna — a quiet, distraction-free way to pray along.",
+    url: "/audio",
+    type: "website",
+  },
 };
 
 export default function AudioPage() {

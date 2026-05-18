@@ -25,10 +25,19 @@ export async function generateMetadata({
   return {
     title: set.name,
     description: set.intro,
+    alternates: { canonical: `/mysteries/${set.slug}` },
     openGraph: {
       title: set.name,
       description: set.intro,
-      images: [{ url: set.image }],
+      url: `/mysteries/${set.slug}`,
+      type: "article",
+      images: [{ url: set.image, alt: set.imageAlt }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: set.name,
+      description: set.intro,
+      images: [set.image],
     },
   };
 }
@@ -50,8 +59,31 @@ export default async function MysteryDetailPage({
       ? MYSTERY_SETS[MYSTERY_ORDER[idx + 1]]
       : null;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: set.name,
+    description: set.intro,
+    image: set.image,
+    inLanguage: "en-US",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Holy Rosary — A Devotion",
+    },
+    about: set.mysteries.map((m) => ({
+      "@type": "CreativeWork",
+      name: m.title,
+      description: m.meditation,
+      citation: m.scriptureRef,
+    })),
+  };
+
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav aria-label="Breadcrumb" className="mb-6">
         <Link
           href="/mysteries"

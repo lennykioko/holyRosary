@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Under Her Mantle — Marian Devotions & Apparitions",
   description:
     "Short writeups on Marian apparitions and devotions — Our Lady of Kibeho (Rwanda), Our Lady of Africa (Algeria), and Our Lady of Guadalupe (Mexico).",
+  alternates: { canonical: "/her-mantle" },
+  openGraph: {
+    title: "Under Her Mantle — Marian Devotions & Apparitions",
+    description:
+      "Short writeups on Marian apparitions and devotions — Our Lady of Kibeho (Rwanda), Our Lady of Africa (Algeria), and Our Lady of Guadalupe (Mexico).",
+    url: "/her-mantle",
+    type: "website",
+  },
 };
 
 export default function HerMantlePage() {

@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Gregorian Chant",
   description:
     "Pray the Holy Rosary in the ancient tradition of Gregorian chant — Latin, sung, sacred.",
+  alternates: { canonical: "/gregorian" },
+  openGraph: {
+    title: "The Rosary, sung in Gregorian chant",
+    description:
+      "Pray the Holy Rosary in the ancient tradition of Gregorian chant — Latin, sung, sacred.",
+    url: "/gregorian",
+    type: "website",
+  },
 };
 
 export default function GregorianPage() {

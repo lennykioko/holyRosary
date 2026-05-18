@@ -320,6 +320,11 @@ export const INSPIRATION_VIDEOS: InspirationVideo[] = [
     author: "Gabi After Hours",
   },
   {
+    videoId: "lBdrG_D0YsE",
+    title: "When Apologetics Fails",
+    author: "Gabi After Hours",
+  },
+  {
     videoId: "2bPTC6xdFow",
     title: "The Virgin Mary and The Protestant Minister",
     author: "Gabi After Hours",

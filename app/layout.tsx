@@ -12,7 +12,7 @@ const nunito = Nunito({
 });
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://rosary-devotion.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://holy-rosary-365.vercel.app";
 const siteName = "Holy Rosary — A Devotion";
 const siteDescription =
   "A simple, sacred place to grow in devotion to the Holy Rosary — the mysteries, scripture, guided videos, rosaries in song, and the 15 promises of Our Lady.";

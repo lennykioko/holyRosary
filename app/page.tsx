@@ -24,7 +24,7 @@ export default function HomePage() {
         <div className="shrink-0 w-full sm:w-56 mx-auto sm:mx-0">
           <div className="relative aspect-[3/4] rounded-xl overflow-hidden ring-1 ring-border shadow-sm bg-accent-soft">
             <Image
-              src="/africanMary.jpg"
+              src="/africanMary2.png"
               alt="Mary, Mother of God — depicted in the iconography of Africa"
               fill
               priority

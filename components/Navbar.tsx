@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
+  { href: "/", label: "Home" },
   { href: "/mysteries", label: "Mysteries" },
   { href: "/pray-along", label: "Pray Along" },
   { href: "/audio", label: "In Song" },

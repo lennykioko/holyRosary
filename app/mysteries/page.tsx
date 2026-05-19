@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Meditate on the Joyful, Sorrowful, Glorious, and Luminous mysteries of the Holy Rosary, with scripture and reflection.",
     url: "/mysteries",
     type: "website",
+    images: ["/opengraph-image.png"],
   },
 };
 

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "The Rosary sung by Donna — a quiet, distraction-free way to pray along.",
     url: "/audio",
     type: "website",
+    images: ["/opengraph-image.png"],
   },
 };
 

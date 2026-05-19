@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Guided rosary videos from Ascension Presents (Fr. Mike Schmitz), Catholic Minute (Ken Yasinski), and My Mother Mary — all four mysteries from each channel.",
     url: "/pray-along",
     type: "website",
+    images: ["/opengraph-image.png"],
   },
 };
 

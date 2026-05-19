@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Short writeups on Marian apparitions and devotions — Our Lady of Kibeho (Rwanda), Our Lady of Africa (Algeria), and Our Lady of Guadalupe (Mexico).",
     url: "/her-mantle",
     type: "website",
+    images: ["/opengraph-image.png"],
   },
 };
 

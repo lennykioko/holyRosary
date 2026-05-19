@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Pray the Holy Rosary in the ancient tradition of Gregorian chant — Latin, sung, sacred.",
     url: "/gregorian",
     type: "website",
+    images: ["/opengraph-image.png"],
   },
 };
 

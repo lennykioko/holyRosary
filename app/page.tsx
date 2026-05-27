@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { TodayMysteryCTA } from "@/components/TodayMysteryCTA";
 import { VideoCard } from "@/components/VideoCard";
 import {
   FIFTEEN_PROMISES,
   INSPIRATION_VIDEOS,
   MYSTERY_ORDER,
   MYSTERY_SETS,
-  mysteryForToday,
 } from "@/lib/rosary";
 
 export const metadata: Metadata = {
@@ -15,8 +15,6 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const today = MYSTERY_SETS[mysteryForToday()];
-
   return (
     <article>
       {/* Hero */}
@@ -46,15 +44,7 @@ export default function HomePage() {
             the fifteen promises of Our Lady, gathered in one place.
           </p>
           <div className="mt-5 flex flex-wrap items-center gap-3">
-            <Link
-              href={`/mysteries/${today.slug}`}
-              className="inline-flex items-center gap-2 rounded-md bg-accent px-4 py-2.5 text-[14px] font-bold text-white hover:bg-[color-mix(in_oklab,var(--color-accent)_88%,black)] transition-colors"
-            >
-              Pray today’s mysteries — {today.shortName}
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M5 12h14M13 5l7 7-7 7" />
-              </svg>
-            </Link>
+            <TodayMysteryCTA />
             <Link
               href="/audio"
               className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-4 py-2.5 text-[14px] font-bold text-accent hover:border-accent transition-colors"

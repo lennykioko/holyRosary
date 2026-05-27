@@ -315,6 +315,11 @@ export type InspirationVideo = {
 
 export const INSPIRATION_VIDEOS: InspirationVideo[] = [
   {
+    videoId: "5K-k60-glSE",
+    title: "Pray the Rosary!",
+    author: "Gabi After Hours",
+  },
+  {
     videoId: "xPOtHkcLEdY",
     title: "Gabriel Castillo Conversion",
     author: "Gabi After Hours",

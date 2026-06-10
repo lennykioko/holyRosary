@@ -495,6 +495,35 @@ export const GREGORIAN_VIDEOS: GregorianVideo[] = [
     description:
       "A second Gregorian version — gentle and steady. A good companion at the end of an anxious day.",
   },
+  {
+    videoId: "OshGjBc6glk",
+    title: "Complete Holy Rosary — Gregorian Chant",
+    author: "JMJ PAX",
+    description:
+      "The complete Holy Rosary sung in Gregorian chant — the full prayer, start to finish, in the ancient tradition.",
+  },
+  {
+    videoId: "ct2YhxOo0GE",
+    title: "Rosary of the Nations — sung in Latin and other languages",
+    author: "Harpa Dei",
+    description:
+      "The Rosary sung by Harpa Dei in Latin and many languages — a chanted prayer that gathers the nations before Our Lady.",
+  },
+  {
+    videoId: "v4lqKZo7dpQ",
+    title: "Sorrowful Mysteries — Gregorian Chant, Rosary to Our Lady of Guadalupe",
+    author: "Divine Light Music & Prayers",
+    description:
+      "The Sorrowful Mysteries sung in Gregorian chant, offered as a rosary to Our Lady of Guadalupe — meditative and reverent.",
+  },
+  {
+    videoId: "YTY3jNb7sRM",
+    title:
+      "Beautiful Music From Heaven That God Gifted To Catholic Mexico At The Intercession Of Mary",
+    author: "Flip'n Eleanor",
+    description:
+      "Sacred music given to Catholic Mexico through the intercession of Our Lady — a heavenly accompaniment to prayer.",
+  },
 ];
 
 // Donna's sung rosaries — the rosary set to song. Files in /public/01-donna

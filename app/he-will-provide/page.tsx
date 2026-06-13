@@ -9,12 +9,12 @@ import {
 export const metadata: Metadata = {
   title: "He Will Provide — Promises for the Crisis",
   description:
-    "Three preachings by Fr. Antony Parankimalil VC on suffering, financial breakthrough, and the Holy Spirit — with the scriptures to claim every day for one month, and the promise that the Holy Spirit holds enduring riches.",
+    "Preachings by Fr. Antony Parankimalil VC on suffering, financial breakthrough, and the Holy Spirit — with the scriptures to claim every day for one month, and the promise that the Holy Spirit holds enduring riches.",
   alternates: { canonical: "/he-will-provide" },
   openGraph: {
     title: "He Will Provide — Promises for the Crisis",
     description:
-      "Three preachings by Fr. Antony Parankimalil VC on suffering, financial breakthrough, and the Holy Spirit — with the scriptures to claim every day for one month.",
+      "Preachings by Fr. Antony Parankimalil VC on suffering, financial breakthrough, and the Holy Spirit — with the scriptures to claim every day for one month.",
     url: "/he-will-provide",
     type: "website",
     images: ["/opengraph-image.png"],

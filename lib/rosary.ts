@@ -349,6 +349,11 @@ export const INSPIRATION_VIDEOS: InspirationVideo[] = [
     title: "15 Promises of The Rosary Simply Explained (2026)",
     author: "Cameron Riecker",
   },
+  {
+    videoId: "o72Hozf_0Ck",
+    title: "MIRACLES From the Rosary! w/ @gabiafterhours",
+    author: "Pints With Aquinas",
+  },
 ];
 
 // Pray-along channels — guided rosary videos grouped by channel and mystery.

@@ -12,6 +12,7 @@ const links = [
   { href: "/audio", label: "In Song" },
   { href: "/gregorian", label: "Chant" },
   { href: "/her-mantle", label: "Her Mantle" },
+  { href: "/he-will-provide", label: "He Will Provide" },
 ];
 
 function isActive(pathname: string, href: string) {

@@ -623,6 +623,81 @@ export const MARIAN_DEVOTIONS: MarianDevotion[] = [
   },
 ];
 
+// ── "He Will Provide" ──────────────────────────────────────────────────
+// Three preachings by Fr. Antony Parankimalil VC (Divine Retreat ministry):
+// God's purpose in suffering, the financial breakthrough, and the Holy
+// Spirit who holds every true riches. Scripture is quoted in the simple,
+// spoken phrasing Fr. Antony has people claim aloud — not as a citation,
+// but as a promise to be held in the heart for a month.
+
+export type ProvisionPreaching = {
+  videoId: string;
+  title: string;
+  author: string;
+  theme: string; // short eyebrow label
+  lead: string; // one-line framing of the message
+  points: string[]; // the key points / summary
+};
+
+export const PROVISION_PREACHINGS: ProvisionPreaching[] = [
+  {
+    videoId: "r68NoqohJSc",
+    title: "Financial Crisis? — Claim His Promise",
+    author: "Fr. Antony Parankimalil VC · Divine UK",
+    theme: "The Lord will provide",
+    lead: "Don’t run only to people for your breakthrough — run to the One who owns it all.",
+    points: [
+      "All authority in heaven and on earth belongs to Jesus (Matthew 28:18). Everything in heaven and on earth was created through Him and for Him (Colossians 1:16–17). He is the true “Prime Minister” over every power — so take your need to Him, not only to people.",
+      "A single mother came with no job, no money, and three thousand shillings of school fees she could not pay. Fr. Antony did not hand her money — that would only have solved one day. Instead he gave her God’s own promises to claim every day for one month.",
+      "The Lord will provide — Jehovah Jireh (Genesis 22:14). He goes before you, levels the mountains, and breaks the gates of bronze (Isaiah 45:2–3). What looks like a mountain of rent, fees, and debt, God removes.",
+      "Some days later — without anyone asking on her behalf — a foundation’s scholarship fund for the education of poor children quietly covered the fees in full. She had claimed the promise, and God provided.",
+    ],
+  },
+];
+
+export type ClaimScripture = {
+  ref: string; // e.g. "Philippians 4:19"
+  spoken: string; // the simple version, as Fr. Antony has people claim it
+};
+
+// Fr. Antony's counsel to those facing a financial crisis or seeking work:
+// claim these promises aloud, every day, for one month.
+export const BREAKTHROUGH_SCRIPTURES: ClaimScripture[] = [
+  {
+    ref: "Genesis 22:14",
+    spoken: "The Lord will provide.",
+  },
+  {
+    ref: "Philippians 4:19",
+    spoken:
+      "My God will supply every need of mine, according to his riches in glory.",
+  },
+  {
+    ref: "Isaiah 45:2–3",
+    spoken:
+      "I will go before you and level the mountains; I will break the gates of bronze, and give you treasures of darkness, riches hidden in secret places.",
+  },
+  {
+    ref: "Psalm 2:8",
+    spoken: "Ask of me, and I will make the nations your heritage.",
+  },
+  {
+    ref: "Jeremiah 33:3",
+    spoken:
+      "Call to me and I will answer you, and show you great and mighty things that you do not know.",
+  },
+  {
+    ref: "Mark 10:27",
+    spoken: "For God, all things are possible.",
+  },
+];
+
+// The closing word: the Holy Spirit Himself is the source of enduring wealth.
+export const HOLY_SPIRIT_RICHES: ClaimScripture = {
+  ref: "Proverbs 8:18",
+  spoken: "With me are riches and honor, enduring wealth and prosperity.",
+};
+
 // Suggested mystery for today, by day of week (per Catholic tradition).
 export function mysteryForToday(date = new Date()): MysterySlug {
   // 0 Sun, 1 Mon, 2 Tue, 3 Wed, 4 Thu, 5 Fri, 6 Sat

@@ -522,6 +522,14 @@ export const GREGORIAN_VIDEOS: GregorianVideo[] = [
       "The Sorrowful Mysteries sung in Gregorian chant, offered as a rosary to Our Lady of Guadalupe — meditative and reverent.",
   },
   {
+    videoId: "Xo2d-7aRQwk",
+    title:
+      "Our Lady of Guadalupe Rosary | Sacred Chant for Comfort, Protection & Hope",
+    author: "Gregorian Chants Global",
+    description:
+      "A sacred sung rosary to Our Lady of Guadalupe — chant offered for comfort, protection, and hope.",
+  },
+  {
     videoId: "YTY3jNb7sRM",
     title:
       "Beautiful Music From Heaven That God Gifted To Catholic Mexico At The Intercession Of Mary",

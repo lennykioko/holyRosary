@@ -530,6 +530,13 @@ export const GREGORIAN_VIDEOS: GregorianVideo[] = [
       "A sacred sung rosary to Our Lady of Guadalupe — chant offered for comfort, protection, and hope.",
   },
   {
+    videoId: "va0oMYVb5MM",
+    title: "Holy Rosary for Anxiety — When Your Mind Will Not Rest Tonight",
+    author: "Gregorian Chants Global",
+    description:
+      "A sung rosary for the anxious night — chant to quiet a restless mind and carry you gently toward sleep.",
+  },
+  {
     videoId: "YTY3jNb7sRM",
     title:
       "Beautiful Music From Heaven That God Gifted To Catholic Mexico At The Intercession Of Mary",

@@ -325,6 +325,11 @@ export const INSPIRATION_VIDEOS: InspirationVideo[] = [
     author: "Gabi After Hours",
   },
   {
+    videoId: "0pqSHr6ptJA",
+    title: "The Rosary Testimonies (4k)",
+    author: "Gabi After Hours",
+  },
+  {
     videoId: "lBdrG_D0YsE",
     title: "When Apologetics Fails",
     author: "Gabi After Hours",

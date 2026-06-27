@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/gregorian`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/he-will-provide`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/her-mantle`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${siteUrl}/undoer-of-knots`, lastModified, changeFrequency: "monthly", priority: 0.7 },
   ];
 
   const mysteryRoutes: MetadataRoute.Sitemap = Object.values(MYSTERY_SETS).map(

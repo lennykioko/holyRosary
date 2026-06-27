@@ -723,6 +723,117 @@ export const HOLY_SPIRIT_RICHES: ClaimScripture = {
   spoken: "With me are riches and honor, enduring wealth and prosperity.",
 };
 
+// ── Mary, Undoer of Knots — devotion & 54-day Rosary Novena ──
+
+// The ways to pray the novena, from simplest to most powerful.
+export type KnotsWay = {
+  label: string;
+  tag: string;
+  description: string;
+  recommended?: boolean;
+};
+
+export const KNOTS_WAYS: KnotsWay[] = [
+  {
+    label: "The core prayer alone",
+    tag: "Something is better than nothing",
+    description:
+      "Simply pray the core prayer to Our Lady, Undoer of Knots, once a day for nine days. If you don't have the time or the strength for more, this is enough to begin. Start here.",
+  },
+  {
+    label: "The core prayer inside the Rosary",
+    tag: "The traditional, fuller way",
+    description:
+      "Pray a full Rosary, and after the third decade insert the core prayer, then finish your last two decades. Praying the Rosary gives Our Lady permission to act in your life — so she doesn't only undo knots, she also destroys plots.",
+  },
+  {
+    label: "The 54-day Rosary Novena",
+    tag: "For a mountain you need moved",
+    description:
+      "Pray the Rosary with the core prayer every day for 54 days — that is the nine-day novena prayed six times over. When the intention is big, you match the request with your interior effort. Many receive their answer on day 27, on day 54, or on some quiet day in between.",
+    recommended: true,
+  },
+];
+
+// Key dates for praying it as a community each year.
+export type KnotsDate = {
+  date: string;
+  feast: string;
+  note: string;
+};
+
+export const KNOTS_DATES: KnotsDate[] = [
+  {
+    date: "August 6",
+    feast: "Feast of the Transfiguration",
+    note:
+      "Begin here. As Christ showed the apostles a glimpse of His glory, we ask for a glimpse of the truth — of our purpose, and our place in His plan.",
+  },
+  {
+    date: "Aug 15 – Sept 29",
+    feast: "St. Michael's Lent",
+    note:
+      "The novena runs straight through this ancient season of penance, when the Church calls on St. Michael to push back the activity of the evil one. Consider adding the St. Michael prayer at the end of your Rosary.",
+  },
+  {
+    date: "September 28",
+    feast: "Feast of Our Lady, Undoer of Knots",
+    note:
+      "Day 54 lands exactly on her feast — divine providence. The new Eve undoes the knot of sin that the first Eve tied. Many graces are poured out on this day.",
+  },
+];
+
+// The core prayer, broken into stanzas for easy, unhurried praying.
+// A "pause" part marks where you name your own intention.
+export type KnotsPrayerPart =
+  | { type: "stanza"; text: string }
+  | { type: "pause"; text: string };
+
+export const KNOTS_CORE_PRAYER: KnotsPrayerPart[] = [
+  {
+    type: "stanza",
+    text:
+      "Virgin Mary, Mother of fair love, Mother who never refuses to come to the aid of a child in need, Mother whose hands never cease to serve your beloved children — because they are moved by the divine love and immense mercy that exist in your heart — cast your compassionate eyes upon me and see the snarl of knots that exist in my life.",
+  },
+  {
+    type: "stanza",
+    text:
+      "You know very well how desperate I am, my pain, and how I am bound by these knots.",
+  },
+  {
+    type: "stanza",
+    text:
+      "Mary, Mother to whom God entrusted the undoing of the knots in the lives of His children, I entrust into your hands the ribbon of my life. No one — not even the evil one himself — can take it away from your precious care. In your hands there is no knot that cannot be undone.",
+  },
+  {
+    type: "stanza",
+    text:
+      "Powerful Mother, by your grace and intercessory power with your Son and my Liberator, Jesus, take into your hands today this knot…",
+  },
+  {
+    type: "pause",
+    text: "Name your request, and rest in it for a moment.",
+  },
+  {
+    type: "stanza",
+    text:
+      "I beg you to undo it, for the glory of God, once and for all. You are my hope.",
+  },
+  {
+    type: "stanza",
+    text:
+      "O my Lady, you are the only consolation God gives me, the fortification of my feeble strength, the enrichment of my destitution, and, with Christ, the freedom from my chains.",
+  },
+  {
+    type: "stanza",
+    text: "Hear my plea. Keep me, guide me, protect me, O safe refuge.",
+  },
+  {
+    type: "stanza",
+    text: "Mary, Undoer of Knots, pray for me.",
+  },
+];
+
 // Suggested mystery for today, by day of week (per Catholic tradition).
 export function mysteryForToday(date = new Date()): MysterySlug {
   // 0 Sun, 1 Mon, 2 Tue, 3 Wed, 4 Thu, 5 Fri, 6 Sat

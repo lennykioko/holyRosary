@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { VideoCard } from "@/components/VideoCard";
 import {
   KNOTS_WAYS,
   KNOTS_DATES,
   KNOTS_CORE_PRAYER,
+  KNOTS_CHANT,
 } from "@/lib/rosary";
 
 export const metadata: Metadata = {
@@ -223,6 +225,33 @@ export default function UndoerOfKnotsPage() {
           fruitful, and she never fails. The Virgin Mary does not lose against
           the evil one. Graces will flow if you simply do the prayers.
         </p>
+      </section>
+
+      {/* Pray it with chant */}
+      <section aria-labelledby="chant-title" className="mt-16">
+        <div className="text-[11px] font-bold uppercase tracking-[0.14em] text-gold mb-2">
+          Pray it with chant
+        </div>
+        <h2
+          id="chant-title"
+          className="text-[clamp(1.5rem,2vw+0.5rem,2rem)] font-extrabold leading-[1.1] text-accent tracking-tight mb-3"
+        >
+          Gregorian chant to untie the knots
+        </h2>
+        <p className="prose text-text mb-7">
+          Let the chant carry the prayer when words are hard to find. Keep your
+          hands on the beads, your heart on the one knot you are bringing her,
+          and let the ancient melody pray with you.
+        </p>
+
+        <div className="max-w-md">
+          <VideoCard
+            videoId={KNOTS_CHANT.videoId}
+            title={KNOTS_CHANT.title}
+            author={KNOTS_CHANT.author}
+            orientation="landscape"
+          />
+        </div>
       </section>
     </article>
   );

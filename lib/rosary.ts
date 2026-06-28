@@ -834,6 +834,14 @@ export const KNOTS_CORE_PRAYER: KnotsPrayerPart[] = [
   },
 ];
 
+// Gregorian chant to pray along with the Undoer of Knots devotion.
+// User-provided source. Title/author fetched from YouTube metadata.
+export const KNOTS_CHANT: InspirationVideo = {
+  videoId: "biSn5Nhs1rY",
+  title: "Gregorian Chant to Untie the Knots in Your Life",
+  author: "Divine Light Music & Prayers",
+};
+
 // Suggested mystery for today, by day of week (per Catholic tradition).
 export function mysteryForToday(date = new Date()): MysterySlug {
   // 0 Sun, 1 Mon, 2 Tue, 3 Wed, 4 Thu, 5 Fri, 6 Sat

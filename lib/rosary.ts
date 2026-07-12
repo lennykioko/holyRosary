@@ -571,6 +571,13 @@ export const GREGORIAN_VIDEOS: GregorianVideo[] = [
       "A sung rosary for the anxious night — chant to quiet a restless mind and carry you gently toward sleep.",
   },
   {
+    videoId: "biSn5Nhs1rY",
+    title: "Gregorian Chant to Untie the Knots in Your Life",
+    author: "Divine Light Music & Prayers",
+    description:
+      "Chant to pray with Mary, Undoer of Knots — let the ancient melody carry the one knot you are bringing her. Also featured on the Undoer of Knots devotion.",
+  },
+  {
     videoId: "YTY3jNb7sRM",
     title:
       "Beautiful Music From Heaven That God Gifted To Catholic Mexico At The Intercession Of Mary",

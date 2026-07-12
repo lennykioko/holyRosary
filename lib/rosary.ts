@@ -411,6 +411,35 @@ export const PRAY_CHANNELS: PrayChannel[] = [
     ],
   },
   {
+    slug: "bishop-barron",
+    name: "Bishop Robert Barron",
+    presenter: "Bishop Robert Barron",
+    description:
+      "Bishop Robert Barron leads each set of mysteries with clear, contemplative reflection — measured and rooted in scripture.",
+    videos: [
+      {
+        mystery: "joyful",
+        videoId: "ckUJRg04jyg",
+        youtubeTitle: "The Joyful Mysteries",
+      },
+      {
+        mystery: "sorrowful",
+        videoId: "ry7FbjkN-p0",
+        youtubeTitle: "The Sorrowful Mysteries",
+      },
+      {
+        mystery: "glorious",
+        videoId: "WoJ1hQTVdSo",
+        youtubeTitle: "The Glorious Mysteries",
+      },
+      {
+        mystery: "luminous",
+        videoId: "b2EjBt2PFpc",
+        youtubeTitle: "The Luminous Mysteries",
+      },
+    ],
+  },
+  {
     slug: "catholic-minute",
     name: "Catholic Minute",
     presenter: "Ken Yasinski",

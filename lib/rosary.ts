@@ -901,6 +901,13 @@ export const TESTIMONY_VIDEOS: TestimonyVideo[] = [
     blurb:
       "T.K. Coleman shares how the Rosary reached him and changed the way he prays. Honest, moving, and hard to forget.",
   },
+  {
+    videoId: "e4uWemSfpwk",
+    title: "Tammy Peterson — A Rosary Testimony",
+    author: "Gabi After Hours",
+    blurb:
+      "Tammy Peterson tells how the Rosary drew her in and became part of her daily life — a quiet, unexpected road to faith.",
+  },
 ];
 
 export const LEARN_MORE_VIDEOS: TestimonyVideo[] = [

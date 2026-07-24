@@ -908,6 +908,13 @@ export const TESTIMONY_VIDEOS: TestimonyVideo[] = [
     blurb:
       "Tammy Peterson tells how the Rosary drew her in and became part of her daily life — a quiet, unexpected road to faith.",
   },
+  {
+    videoId: "JgeXAAUzXto",
+    title: "Matt Fradd's Conversion Story",
+    author: "Gabi After Hours",
+    blurb:
+      "Matt Fradd recounts the winding road of his conversion — and how Our Lady kept drawing him back to the faith.",
+  },
 ];
 
 export const LEARN_MORE_VIDEOS: TestimonyVideo[] = [

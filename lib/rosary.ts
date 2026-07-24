@@ -915,6 +915,13 @@ export const TESTIMONY_VIDEOS: TestimonyVideo[] = [
     blurb:
       "Matt Fradd recounts the winding road of his conversion — and how Our Lady kept drawing him back to the faith.",
   },
+  {
+    videoId: "8utLkMjNGcA",
+    title: "I Was Trapped — And Didn't Even Realize It",
+    author: "Gabi After Hours",
+    blurb:
+      "A testimony of being bound without knowing it — and how the Rosary opened the way out into freedom.",
+  },
 ];
 
 export const LEARN_MORE_VIDEOS: TestimonyVideo[] = [

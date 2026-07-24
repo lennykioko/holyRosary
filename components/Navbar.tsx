@@ -11,6 +11,7 @@ const links = [
   { href: "/pray-along", label: "Pray Along" },
   { href: "/audio", label: "In Song" },
   { href: "/gregorian", label: "Chant" },
+  { href: "/testimonies", label: "Stories" },
   { href: "/her-mantle", label: "Her Mantle" },
   { href: "/undoer-of-knots", label: "Undoer of Knots" },
   { href: "/he-will-provide", label: "He Will Provide" },
@@ -41,13 +42,13 @@ export function Navbar() {
       <div className="mx-auto h-16 max-w-5xl px-4 sm:px-6 flex items-center gap-4">
         <Link
           href="/"
-          className="flex items-center gap-2 no-underline"
+          className="flex shrink-0 items-center gap-2 no-underline"
           onClick={() => setOpen(false)}
         >
           <span aria-hidden="true" className="text-accent text-xl leading-none">
             ✠
           </span>
-          <span className="font-extrabold text-[17px] tracking-tight text-text">
+          <span className="font-extrabold text-[17px] tracking-tight text-text whitespace-nowrap">
             Holy Rosary
           </span>
         </Link>
@@ -55,7 +56,7 @@ export function Navbar() {
         {/* Desktop nav */}
         <nav
           aria-label="Primary"
-          className="ml-auto hidden sm:flex items-center gap-1 sm:gap-2"
+          className="ml-auto hidden lg:flex items-center gap-0.5"
         >
           {links.map((l) => {
             const active = isActive(pathname, l.href);
@@ -64,7 +65,7 @@ export function Navbar() {
                 key={l.href}
                 href={l.href}
                 aria-current={active ? "page" : undefined}
-                className={`px-2.5 sm:px-3 py-1.5 rounded-md text-[14px] font-semibold transition-colors ${
+                className={`whitespace-nowrap px-2.5 py-1.5 rounded-md text-[14px] font-semibold transition-colors ${
                   active
                     ? "bg-accent-soft text-accent"
                     : "text-text-muted hover:text-accent hover:bg-accent-soft"
@@ -83,7 +84,7 @@ export function Navbar() {
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((o) => !o)}
-          className="ml-auto sm:hidden inline-flex h-11 w-11 items-center justify-center rounded-md text-text-muted hover:text-accent hover:bg-accent-soft transition-colors"
+          className="ml-auto lg:hidden inline-flex h-11 w-11 items-center justify-center rounded-md text-text-muted hover:text-accent hover:bg-accent-soft transition-colors"
         >
           {open ? (
             <X size={22} aria-hidden="true" />
@@ -98,7 +99,7 @@ export function Navbar() {
         id="mobile-nav"
         aria-label="Primary"
         hidden={!open}
-        className="sm:hidden border-t border-border bg-surface"
+        className="lg:hidden border-t border-border bg-surface"
       >
         <ul className="px-3 py-2">
           {links.map((l) => {

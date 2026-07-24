@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/`, lastModified, changeFrequency: "weekly", priority: 1 },
     { url: `${siteUrl}/mysteries`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${siteUrl}/pray-along`, lastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/testimonies`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/audio`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/gregorian`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/he-will-provide`, lastModified, changeFrequency: "monthly", priority: 0.7 },

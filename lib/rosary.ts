@@ -878,6 +878,42 @@ export const KNOTS_CHANT: InspirationVideo = {
   author: "Divine Light Music & Prayers",
 };
 
+// Testimonies & learn-more videos — for those who want to go deeper.
+export type TestimonyVideo = {
+  videoId: string;
+  title: string;
+  author: string;
+  blurb: string;
+};
+
+export const TESTIMONY_VIDEOS: TestimonyVideo[] = [
+  {
+    videoId: "fNbxJFf1uKo",
+    title: "Incredible Rosary Testimony",
+    author: "Gabi After Hours",
+    blurb:
+      "A firsthand account of what the Rosary can do in a life — the kind of story that reminds us these beads are anything but ordinary.",
+  },
+  {
+    videoId: "6bDzXBgb2_A",
+    title: "T.K. Coleman — A Powerful Rosary Testimony",
+    author: "Gabi After Hours",
+    blurb:
+      "T.K. Coleman shares how the Rosary reached him and changed the way he prays. Honest, moving, and hard to forget.",
+  },
+];
+
+export const LEARN_MORE_VIDEOS: TestimonyVideo[] = [
+  {
+    videoId: "2g9cwL4izEQ",
+    title:
+      "Mystical Encounters: The Sixteen Apparitions of the Virgin Mary Recognized by the Vatican",
+    author: "Purely Catholic",
+    blurb:
+      "For anyone who wants to understand more: the sixteen appearances of Our Lady the Church has formally recognized — Guadalupe, Lourdes, Fatima, and beyond — and why the Rosary sits at the heart of so many of them.",
+  },
+];
+
 // Suggested mystery for today, by day of week (per Catholic tradition).
 export function mysteryForToday(date = new Date()): MysterySlug {
   // 0 Sun, 1 Mon, 2 Tue, 3 Wed, 4 Thu, 5 Fri, 6 Sat

@@ -933,6 +933,13 @@ export const LEARN_MORE_VIDEOS: TestimonyVideo[] = [
     blurb:
       "For anyone who wants to understand more: the sixteen appearances of Our Lady the Church has formally recognized — Guadalupe, Lourdes, Fatima, and beyond — and why the Rosary sits at the heart of so many of them.",
   },
+  {
+    videoId: "9q102OZRK3U",
+    title: "Bl. Karl & Zita of Austria",
+    author: "Gabi After Hours",
+    blurb:
+      "A blessed emperor and his empress, and the faith they held onto through war, exile, and loss — a marriage lived for God.",
+  },
 ];
 
 // Suggested mystery for today, by day of week (per Catholic tradition).

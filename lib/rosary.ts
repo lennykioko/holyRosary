@@ -926,6 +926,13 @@ export const TESTIMONY_VIDEOS: TestimonyVideo[] = [
 
 export const LEARN_MORE_VIDEOS: TestimonyVideo[] = [
   {
+    videoId: "Em8sL4HM38A",
+    title: "Rosary Origins",
+    author: "Gabi After Hours",
+    blurb:
+      "Where the Rosary came from — how the beads, the prayers, and the mysteries took the shape we know today.",
+  },
+  {
     videoId: "2g9cwL4izEQ",
     title:
       "Mystical Encounters: The Sixteen Apparitions of the Virgin Mary Recognized by the Vatican",
